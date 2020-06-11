@@ -12,6 +12,8 @@ exports.up = function(knex) {
         tbl.integer('ingredient_number')
           .unsigned()
           .notNullable();
+        tbl.string('ingredient_name')
+            .notNullable();
         tbl.text('instructions')
           .notNullable();
         tbl.integer('recipe_id')

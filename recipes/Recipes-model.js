@@ -49,6 +49,6 @@ function remove(id) {
 function findIngredients(id) {
     return db("ingredients")
         .join("recipes", "recipes.id", "ingredients.recipe_id")
-        .select("ingredients.id", "recipes.recipe_name", "ingredients.ingredient_number", "ingredients.instructions")
+        .select("ingredients.id", "recipes.recipe_name", "ingredients.ingredient_number", "ingredients.ingredient_name", "ingredients.instructions")
         .where("recipe_id", id)
 }
