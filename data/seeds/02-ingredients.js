@@ -26,66 +26,41 @@ exports.seed = function(knex) {
           instructions: "do nothing" 
       },
       {
-          recipe_id: 3,
+          recipe_id: 4,
           ingredient_number: 4,
-          ingredient_name: "Bread",
-          instructions: "smash it with a hammer (evil laugh)",
-      },
-      {
-          recipe_id: 3,
-          ingredient_number: 1,
-          ingredient_name: "Bread",
-          instructions: "turn your enemy into a flea",
-      },
-      {
-          recipe_id: 3,
-          ingredient_number: 3,
-          ingredient_name: "Bread",
-          instructions: "mail the box to yourself and when it arrives...",
-      },
-      {
-          recipe_id: 4,
-          ingredient_number: 1,
-          ingredient_name: "Bread",
-          instructions: "write a bot to randomly like posts and follow pages",
+          ingredient_name: "rice",
+          instructions: "take as much rice as you want to eat",
       },
       {
           recipe_id: 4,
           ingredient_number: 3,
-          ingredient_name: "Bread",
+          ingredient_name: "water",
           instructions:
-              "try to ignore the persisent feeling of loneliness and disconnection",
+              "add as much water as you deem fit, preferrably more water than rice",
       },
       {
           recipe_id: 4,
           ingredient_number: 2,
-          ingredient_name: "Bread",
-          instructions: "watch instagram followers increase",
+          ingredient_name: "anti-butter cream",
+          instructions: "add only for poor man rice",
       },
-      { recipe_id: 5, ingredient_number: 3, instructions: "burn a witch" },
       {
-          recipe_id: 5,
-          ingredient_number: 4,
-          ingredient_name: "Bread",
-          instructions: "...and quest some more",
+          recipe_id: 4,
+          ingredient_number: 5,
+          ingredient_name: "butter",
+          instructions: "add only for rich man rice",
       },
-      { recipe_id: 5, ingredient_number: 1, instructions: "quest" },
-      { recipe_id: 5, ingredient_number: 2, instructions: "...and quest" },
-      {
-          recipe_id: 6,
-          ingredient_number: 4,
-          instructions: "seamlessly take their place",
+      { 
+          recipe_id: 5, 
+          ingredient_number: 6, 
+          ingredient_name: "milk",
+          instructions: "pour into glass, let sit for 30 days on counter, enjoy" 
       },
       {
           recipe_id: 6,
-          ingredient_number: 3,
-          instructions: "artfully craft accessories",
-      },
-      { recipe_id: 6, ingredient_number: 2, instructions: "procure facial hair" },
-      {
-          recipe_id: 6,
-          ingredient_number: 1,
-          instructions: "steal coworker's name tag",
+          ingredient_number: 7,
+          ingredient_name: "mixed bag of frozen veggies",
+          instructions: "warm and devour your veggies you murderous plant eater!",
       },
   ]);
 };

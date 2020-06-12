@@ -2,7 +2,7 @@ const db = require("../data/connection.js");
 
 module.exports = {
     add,
-    addIngredient,
+    addIngredients,
     update,
     find,
     findById,
@@ -19,7 +19,7 @@ function add(recipe) {
     return db("recipes").insert(recipe, "id")
 }
 
-function addIngredient(ingredient, recipe_id) {
+function addIngredients(ingredient, recipe_id) {
     return db("ingredients")
         .where(recipe_id)
         .insert(ingredient, "id")
